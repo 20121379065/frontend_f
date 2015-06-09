@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>文档</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="stylesheets/q.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+	<div class ="wrap">
+	<div class ="header">
+	    <div class="nav">
+		    <ul>		     
+		       <li><a href="#">布局</a></li>
+		       <li><a href="#">导航</a></li>
+		       <li><a href="#">表单</a></li>
+		       <li><a href="#">按钮</a></li>
+		    </ul>
+		</div>
+	</div>
+	</div>
+	<div class ="wrap">
+	<div class="bj">
+	<h2>布局 (属于弹性布局)</h2>
+	</div>	
+	<div class="section group">
+	    <div class="book  book_1">
+	    <p>Html文本<br/>&lt div class="wrap"&gt&lt/div&gt<br/>&lt div class="wrapper"&gt&lt/div&gt<br/> &lt div class="header"&gt&lt/div&gt<br/>&lt div class="main_bg"&gt&lt/div&gt<br/>&lt div class="main_bg1"&gt&lt/div&gt<br/>&lt div class="main"&gt&lt/div&gt <br/>&lt div class="images_1_of_3"&gt&lt/div&gt<br/>......
+        </p>
+        </div>
+        <div class="book book_1">
+        <p>Css样式<br/>.wrap{margin:0 auto;	width:80%;}<br/>.wrapper{padding: 0 5%;}
+                  <br/>.header{padding: 0 2%;background: #2C8F00;}<br/>.main_bg{background-image: url(pic3.jpg);}
+                  <br/>.main_bg1{background: #f6f6f6;}<br/>.main{padding: 4%;}
+                  <br/>.images_1_of_3 {float:left;width:30.333%;}
+        </p>
+        </div>
+    </div>
+   
+    	<div class="bj">
+    	<div class="dh">
+    		 <h2>导航(div内菜单信息)</h2>
+    	</div>
+    	</div>
+    	<div class="section group">         
+    	<div class="text-dh">    	   
+	    	<p>Html文本
+	            <br/>&lt div class="menu"&gt
+		        <br/>&lt ul&gt
+		        <br/>&lt li class="active"&gt&lta href="#"&gt首页&lt/a&gt&lt/li&gt
+		        <br/>&lt li class="">&lta href="#"&gt欣赏&lt/a&gt&lt/li&gt
+		        <br/>&lt li class="has-sub"&gt&lta href="#">景区&lt/a&gt&lt/li&gt
+		        <br/>&lt li class="last"&gt&lta href="#"&gt感想&lt/a&gt&lt/li&gt
+		        <br/>&lt div class="clear"&gt&lt/div&gt
+		        <br/>&lt/ul&gt
+	            <br/>&lt/div&gt
+	        </p>
+	    </div>
+	    <div class="text-dh">	    
+	        <p>Css样式<br/>.menu {float: left;}  .menu > ul > li {display:inline-block;<br/>position: relative;
+	         margin-right:-4px;}  .menu > ul > li > a {display: block;<br/>text-transform: uppercase;font-family: 'Montserrat Alternates', sans-serif;<br/>font-size: 0.8725em;color: #D4F8B9;	line-height: 3.8em;	padding: 14px 24px;	<br/>-webkit-transition: color .15s;-moz-transition: color .15s;-o-transition: color .15s;<br/>transition: color .15s;border-left: 1px solid #87B862;}
+	         </p>
+	    </div>
+	    </div>
+        <div class="bj">
+    	<div class="bd">
+    		 <h2>表单(form元素是所有表单内容的容器)</h2>
+    	</div>
+    	</div>
+    	<div class="section group">         
+    	<div class="text-bd text-1">    	   
+	    	<p>源码文档
+	    	    <br/>&lt div class="search"&gt<br/>&lt form&gt
+    	        <br/>&lt input type="text" value="" placeholder=""&gt
+    	        <br/>&lt input type="submit" value=""&gt<br/>&lt /form&gt<br/>&lt /div&gt
+    	        <br/><br/>(form除了是表单控件元素的容器，<br/>还包含了action特性和menthod特性.)
+            </p>
+	    </div>
+	    <div class="text-bd text-1">	    
+	        <p>Css样式<br/>.search input[type="text"]{padding: 12px 16px;
+	            <br/>outline: none;color: #D4F8B9;background: none;
+	            <br/>border: none;width: 75.33333%;line-height: 1.5em;
+	            <br/>position: relative;font-size: 0.825em;
+	            <br/>text-transform: capitalize;}
+	            <br/>......
+	         </p>
+	    </div>	       
+	    </div>
+	    <div class="bj">
+    	<div class="an">
+    		 <h2>按钮</h2>
+    	</div>
+    	</div>
+    	<div class="section group">         
+    	<div class="text-an">    	   
+	    	<p>源码文档
+	    	    <br/>&lt div class="rd_more"&gt
+				<br/>&lt a href="#" class="btn"&gt 跟多&lt/a&gt
+				<br/>&lt/div&gt
+            </p>
+	    </div>
+	    <div class="text-an">	    
+	        <p>Css样式<br/>.btn{color: #555555;	display: inline-block;
+	                  <br/>padding: 0 15px;height: 36px;line-height: 36px;
+	                  <br/>text-decoration: none;font-size: 13px;
+	                  <br>font-weight: bold;text-transform: capitalize;
+	                  <br/>background: url(../images/button.png) repeat-x;
+	                  <br/>box-shadow: 0 0 5px #fff inset,0 1px 1px rgba(0,0,0,.33);
+	                  <br/>-webkit-box-shadow: 0 0 5px #fff inset,0 1px 1px rgba(0,0,0,.33);
+	                  <br/>-moz-box-shadow: 0 0 5px #fff inset,0 1px 1px rgba(0,0,0,.33);
+	                  <br/>-o-box-shadow: 0 0 5px #fff inset,0 1px 1px rgba(0,0,0,.33);
+	                  <br/>border: none;-webkit-transition: all 0.5s ease;
+	                  <br/>-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;
+	                  <br/>transition: all 0.5s ease;}
+	        </p>
+	    </div>	       
+	    </div>
+	</div>
+</body>
+</html>
+
+
+		
