@@ -1,0 +1,125 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+ol,ul {list-style:none;margin:0;padding:0;}
+a{text-decoration:none;}
+
+img{max-width:100%;}
+body {
+	font-family:trebuchet ms, arial, sans-serif;
+	font-size: 100%;
+	background-image: url(pic.jpg);
+}
+.wrap{
+	margin: 0;
+	padding: 0 15%;
+	width: 70%;
+}
+.header{
+	padding: 0 11%;
+	background: #C0C04F;
+}
+.nav {	
+	height: 70px;
+}
+.nav li{
+	float: left;
+}
+.nav li a{
+	font-family: sans-serif;
+    font-size: xx-large;
+    display: block;
+    height: 60px;
+    width: 182px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+    color: #FF0;
+    line-height: 78px;
+    margin-top: 8px;
+}
+.nav li a:hover{
+	background-color: #808000;
+	color: #fff;
+}
+.bj{	
+    height: 50px;
+    background-color: #D4F8B9;  
+    margin: 0 auto;
+    opacity: 0.45;
+}
+.bj:hover{
+	opacity: 0.6;
+}
+.bj h2{
+	font-size: 2em;
+	float: left;
+	margin-top: 6px;
+	margin-left: 40px;
+	color: #808080;
+}
+.bj h2:hover{
+	color: #630;
+}
+.book{
+	background: #FFFfC0;
+	display: block;
+}
+.book_1{
+	float:left;
+	width:50%;
+}
+.book p{
+	font-size: 1.1em;
+	color: #800000;
+    padding: 4%;
+    margin-left: 80px;
+}
+.dh{
+	margin-top: 226px;
+}
+.text-dh{
+	width: 100%;
+	background: #FFFfC0;
+	display: block;
+	float:left;
+}
+.text-dh p{
+	font-size: 1.1em;
+	color: #800000;
+    padding: 3.8%;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+.bd{
+	margin-top: 460px;
+}
+.text-bd{
+	background: #FFFfC0;
+	display: block;
+}
+.text-1{
+	float:left;
+	width:50%
+}
+.text-bd p{
+	font-size: 1.1em;
+	color: #800000;
+    padding: 4%;
+    margin-left: 80px;
+    
+}
+.an{
+	margin-top: 248px;
+}
+.text-an{
+	width: 100%;
+	background: #FFFfC0;
+	display: block;
+	float:left;
+}
+.text-an p{
+	font-size: 1.1em;
+	color: #800000;
+    padding: 3.8%;
+    margin-left: 70px;
+    margin-top: -20px;
+}
